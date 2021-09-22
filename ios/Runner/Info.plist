@@ -53,7 +53,7 @@
         			<!-- TODO Replace this value: -->
         			<!-- Copied from GoogleService-Info.plist key REVERSED_CLIENT_ID -->
         			<string>com.googleusercontent.apps.322915959213-dh9pngcbov233e8hok2b4i142nem7vs4</string>
-        			<string>fb858040135030262</string>
+        			<string>fb2006628019501596</string>
         		</array>
         	</dict>
         </array>
@@ -61,7 +61,7 @@
         <key>858040135030262</key>
         <string>858040135030262</string>
         <key>Elite Quiz</key>
-
+        <!-- TODO Replace this value: -->
         <!-- Replace "YOUR_APP_NAME" with your Facebook App name. --result.accessToken.token>
         <string>Elite Quiz</string>
 

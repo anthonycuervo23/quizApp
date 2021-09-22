@@ -32,42 +32,46 @@ class CustomDialog extends StatelessWidget {
           child: Container(
             height: MediaQuery.of(context).size.height,
             width: MediaQuery.of(context).size.width,
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+            child: Wrap(
               children: [
-                Padding(
-                    padding: EdgeInsets.only(
-                      left: MediaQuery.of(context).size.width * (0.075),
-                      top: 25.0,
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Padding(
+                        padding: EdgeInsets.only(
+                          left: MediaQuery.of(context).size.width * (0.075),
+                          top: 25.0,
+                        ),
+                        child: IconButton(
+                            onPressed: onBackButtonPress == null
+                                ? () {
+                                    Navigator.of(context).pop();
+                                  }
+                                : onBackButtonPress as void Function()?,
+                            color: Theme.of(context).primaryColor,
+                            iconSize: 40.0,
+                            icon: Icon(
+                              Icons.arrow_back,
+                              color: Theme.of(context).backgroundColor,
+                            ))),
+                    SizedBox(
+                      height: MediaQuery.of(context).size.height * (0.02),
                     ),
-                    child: IconButton(
-                        onPressed: onBackButtonPress == null
-                            ? () {
-                                Navigator.of(context).pop();
-                              }
-                            : onBackButtonPress as void Function()?,
-                        color: Theme.of(context).primaryColor,
-                        iconSize: 40.0,
-                        icon: Icon(
-                          Icons.arrow_back,
-                          color: Theme.of(context).backgroundColor,
-                        ))),
-                SizedBox(
-                  height: MediaQuery.of(context).size.height * (0.02),
+                    Center(
+                      child: Container(
+                        child: child,
+                        decoration: BoxDecoration(
+                            borderRadius:
+                                BorderRadius.circular(UiUtils.dailogRadius)),
+                        height: height ??
+                            MediaQuery.of(context).size.height *
+                                UiUtils.dailogHeightPercentage,
+                        width: MediaQuery.of(context).size.width *
+                            UiUtils.dailogWidthPercentage,
+                      ),
+                    )
+                  ],
                 ),
-                Center(
-                  child: Container(
-                    child: child,
-                    decoration: BoxDecoration(
-                        borderRadius:
-                            BorderRadius.circular(UiUtils.dailogRadius)),
-                    height: height ??
-                        MediaQuery.of(context).size.height *
-                            UiUtils.dailogHeightPercentage,
-                    width: MediaQuery.of(context).size.width *
-                        UiUtils.dailogWidthPercentage,
-                  ),
-                )
               ],
             ),
           ),

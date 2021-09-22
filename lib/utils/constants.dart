@@ -2,9 +2,9 @@ final String appName = "Elite Quiz";
 final String packageName = "com.jeancuervo.quizappuic";
 
 //supporated language codes
-final List<String> supporatedLocales = ['en', 'hi', 'ur'];
+final List<String> supporatedLocales = ['en', 'es'];
 //
-final String defaultLanguageCode = 'en';
+final String defaultLanguageCode = 'es';
 
 //Hive all boxes name
 final String authBox = "auth";
