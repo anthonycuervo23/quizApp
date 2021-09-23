@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 class HorizontalTimerContainer extends StatelessWidget {
   final AnimationController timerAnimationController;
 
-  HorizontalTimerContainer({Key? key, required this.timerAnimationController}) : super(key: key);
+  HorizontalTimerContainer({Key? key, required this.timerAnimationController})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +21,8 @@ class HorizontalTimerContainer extends StatelessWidget {
             return Container(
               color: Theme.of(context).colorScheme.secondary,
               height: 10.0,
-              width: MediaQuery.of(context).size.width * timerAnimationController.value,
+              width: MediaQuery.of(context).size.width *
+                  timerAnimationController.value,
             );
           },
         ),

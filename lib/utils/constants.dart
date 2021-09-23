@@ -1,4 +1,4 @@
-final String appName = "Elite Quiz";
+final String appName = "Nurse Values";
 final String packageName = "com.jeancuervo.quizappuic";
 
 //supporated language codes
