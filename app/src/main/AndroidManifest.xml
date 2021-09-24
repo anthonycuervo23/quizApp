@@ -10,13 +10,13 @@
     <!-- Add below permission inside 'application' tag -->
 
    <application
-        android:label="Quiz app"
+        android:label="Nurse Values"
         android:icon="@mipmap/ic_launcher"
         android:usesCleartextTraffic="true"
        >
        <meta-data
            android:name="com.google.android.gms.ads.APPLICATION_ID"
-           android:value="ca-app-pub-3940256099942544~3347511713"/>
+           android:value="ca-app-pub-4510454902831241~4330829036"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
