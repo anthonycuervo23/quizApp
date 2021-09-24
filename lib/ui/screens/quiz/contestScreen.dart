@@ -48,6 +48,7 @@ class _ContestScreen extends State<ContestScreen>
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
+        initialIndex: 1,
         length: 3,
         child: Builder(builder: (BuildContext context) {
           return Scaffold(

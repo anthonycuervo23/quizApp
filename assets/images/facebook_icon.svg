@@ -1,4 +1,6 @@
-<svg width="166" height="166" viewBox="0 0 166 166" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M142 0H24C10.7452 0 0 10.7452 0 24V142C0 155.255 10.7452 166 24 166H142C155.255 166 166 155.255 166 142V24C166 10.7452 155.255 0 142 0Z" fill="white"/>
-<path d="M98.741 87.156L100.724 74.235H88.324V65.85C88.324 62.315 90.056 58.869 95.609 58.869H101.245V47.869C97.9361 47.3341 94.5925 47.042 91.241 46.995C81.031 46.995 74.357 53.184 74.357 64.387V74.235H63.007V87.156H74.357V118.395H88.326V87.156H98.741Z" fill="#004C77"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="166" height="166" viewBox="0 0 166 166">
+  <g id="facebook_icon" transform="translate(-618 -1215)">
+    <rect id="Rectangle_559" data-name="Rectangle 559" width="166" height="166" rx="24" transform="translate(618 1215)" fill="#fff"/>
+    <path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f" d="M37.343,40.161,39.326,27.24h-12.4V18.855c0-3.535,1.732-6.981,7.285-6.981h5.636v-11A68.736,68.736,0,0,0,29.843,0C19.633,0,12.959,6.189,12.959,17.392V27.24H1.609V40.161h11.35V71.4H26.928V40.161Z" transform="translate(679.398 1261.995)" fill="#f87758"/>
+  </g>
 </svg>

@@ -2,6 +2,7 @@ import 'dart:ui';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/svg.dart';
@@ -470,7 +471,7 @@ class _LeaderBoardScreen extends State<LeaderBoardScreen> {
                                   maxLines: 2,
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
-                                      color: Theme.of(context).primaryColor),
+                                      color: Theme.of(context).backgroundColor),
                                 ),
                               )),
                           Container(
@@ -484,7 +485,8 @@ class _LeaderBoardScreen extends State<LeaderBoardScreen> {
                                   maxLines: 1,
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
-                                      color: Theme.of(context).primaryColor),
+                                      color: Theme.of(context).primaryColor,
+                                      fontWeight: FontWeight.bold),
                                 ),
                               )),
                         ],

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quizappuic/ui/styles/colors.dart';
 
 class HorizontalTimerContainer extends StatelessWidget {
   final AnimationController timerAnimationController;
@@ -19,7 +20,7 @@ class HorizontalTimerContainer extends StatelessWidget {
           animation: timerAnimationController,
           builder: (context, child) {
             return Container(
-              color: Theme.of(context).colorScheme.secondary,
+              color: pageBackgroundColor,
               height: 10.0,
               width: MediaQuery.of(context).size.width *
                   timerAnimationController.value,

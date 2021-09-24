@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:quizappuic/app/appLocalization.dart';
@@ -68,7 +69,8 @@ class SignInScreenState extends State<SignInScreen> {
             SizedBox(
               height: MediaQuery.of(context).size.height * .07,
             ),
-            signUpText(),
+            // signUpText(),
+            Image.asset('assets/images/splash_logo.png'),
             SizedBox(
               height: MediaQuery.of(context).size.height * .03,
             ),
@@ -299,7 +301,7 @@ class SignInScreenState extends State<SignInScreen> {
                 AppLocalization.of(context)!
                     .getTranslatedValues('forgotPwdLbl')!,
                 style: TextStyle(
-                    fontSize: 11, color: Theme.of(context).primaryColor)),
+                    fontSize: 11, color: Theme.of(context).backgroundColor)),
             onTap: () async {
               showModalBottomSheet(
                   shape: RoundedRectangleBorder(
@@ -411,7 +413,7 @@ class SignInScreenState extends State<SignInScreen> {
           style: Theme.of(context)
               .textTheme
               .subtitle1!
-              .copyWith(color: Theme.of(context).primaryColor),
+              .copyWith(color: Theme.of(context).backgroundColor),
         ),
       ),
     ]));
@@ -424,7 +426,7 @@ class SignInScreenState extends State<SignInScreen> {
       textAlign: TextAlign.center,
       style: TextStyle(
           fontWeight: FontWeight.w300,
-          color: Theme.of(context).primaryColor,
+          color: Theme.of(context).backgroundColor,
           fontSize: 14),
     ));
   }
@@ -559,7 +561,7 @@ class SignInScreenState extends State<SignInScreen> {
             child: Text(
               AppLocalization.of(context)!.getTranslatedValues('signUpLbl')!,
               style: TextStyle(
-                  color: Theme.of(context).primaryColor.withOpacity(0.5)),
+                  color: Theme.of(context).backgroundColor.withOpacity(0.5)),
             ),
           ),
         ],

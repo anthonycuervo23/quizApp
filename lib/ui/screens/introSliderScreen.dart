@@ -270,7 +270,7 @@ class _GettingStartedScreenState extends State<IntroSliderScreen>
             Text(
               slideList[index].title,
               style: TextStyle(
-                  color: Theme.of(context).primaryColor,
+                  color: Theme.of(context).backgroundColor,
                   fontSize: 25.0,
                   fontWeight: FontWeight.bold),
             ),
@@ -283,7 +283,7 @@ class _GettingStartedScreenState extends State<IntroSliderScreen>
                 slideList[index].description,
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                    color: Theme.of(context).primaryColor, fontSize: 17.0),
+                    color: Theme.of(context).backgroundColor, fontSize: 17.0),
               ),
             ),
           ],

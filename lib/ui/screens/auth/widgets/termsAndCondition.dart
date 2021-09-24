@@ -29,7 +29,7 @@ class TermsAndCondition extends StatelessWidget {
                     AppLocalization.of(context)!
                         .getTranslatedValues('termOfService')!,
                     style: TextStyle(
-                        color: Theme.of(context).primaryColor,
+                        color: Theme.of(context).backgroundColor,
                         decoration: TextDecoration.underline,
                         fontWeight: FontWeight.bold,
                         fontSize: 12),
@@ -56,7 +56,7 @@ class TermsAndCondition extends StatelessWidget {
                     AppLocalization.of(context)!
                         .getTranslatedValues('privacyPolicy')!,
                     style: TextStyle(
-                        color: Theme.of(context).primaryColor,
+                        color: Theme.of(context).backgroundColor,
                         decoration: TextDecoration.underline,
                         fontWeight: FontWeight.bold,
                         fontSize: 12),

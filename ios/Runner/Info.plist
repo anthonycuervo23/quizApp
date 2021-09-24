@@ -11,7 +11,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Quiz app</string>
+	<string>Nurse Values</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -73,6 +73,6 @@
             <string>fbshareextension</string>
         </array>
         <key>GADApplicationIdentifier</key>
-        <string>ca-app-pub-3940256099942544~1458002511</string>
+        <string>ca-app-pub-4510454902831241~6024034717</string>
 </dict>
 </plist>
