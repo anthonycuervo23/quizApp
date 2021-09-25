@@ -58,7 +58,7 @@
         	</dict>
         </array>
         <!-- End of the Google Sign-in Section -->
-        <key>2006628019501596</key>
+        <key>FacebookAppID</key>
         <string>2006628019501596</string>
         <key>FacebookDisplayName</key>
         <!-- Replace "YOUR_APP_NAME" with your Facebook App name. -->
