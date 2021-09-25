@@ -7,7 +7,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <!-- Add below permission inside 'manifest' tag -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
-    <!-- Add below permission inside 'application' ... tag -->
+    <!-- Add below permission inside 'application' .... tag -->
 
    <application
         android:label="Nurse Values"
