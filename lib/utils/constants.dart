@@ -160,8 +160,8 @@ final String groupBattleInviteMessage =
     "Hello, Join a group battle in $appName app. Go to group battle in the app and join using the code : ";
 
 // AdMob Ads Ids For video
-final String videoAndroidId = 'ca-app-pub-4510454902831241/6634710127';
-final String videoIosId = 'ca-app-pub-4510454902831241/1332791297';
+final String videoAndroidId = 'ca-app-pub-4510454902831241/5313179151';
+final String videoIosId = 'ca-app-pub-4510454902831241/7579910532';
 // AdMob Id for banner show
 final String bannerAndroidId = 'ca-app-pub-4510454902831241/1429333528';
 final String bannerIosId = 'ca-app-pub-4510454902831241/1332791297';

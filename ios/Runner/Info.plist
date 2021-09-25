@@ -73,5 +73,11 @@
         </array>
         <key>GADApplicationIdentifier</key>
         <string>ca-app-pub-4510454902831241~6024034717</string>
+        <key>NSLocationAlwaysUsageDescription</key>
+        <string>We do not require location permission.</string>
+        <key>NSLocationUsageDescription</key>
+        <string>We do not require location permission.</string>
+        <key>NSLocationWhenInUseUsageDescription</key>
+        <string>We do not require location permission.</string>
 </dict>
 </plist>
