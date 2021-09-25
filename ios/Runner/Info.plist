@@ -52,18 +52,17 @@
         		<array>
         			<!-- TODO Replace this value: -->
         			<!-- Copied from GoogleService-Info.plist key REVERSED_CLIENT_ID -->
-        			<string>com.googleusercontent.apps.322915959213-dh9pngcbov233e8hok2b4i142nem7vs4</string>
+        			<string>com.googleusercontent.apps.323371708222-klb0vai0bipovi91hj2d58f4bst3g8di</string>
         			<string>fb2006628019501596</string>
         		</array>
         	</dict>
         </array>
         <!-- End of the Google Sign-in Section -->
-        <key>858040135030262</key>
-        <string>858040135030262</string>
-        <key>Elite Quiz</key>
-        <!-- TODO Replace this value: -->
-        <!-- Replace "YOUR_APP_NAME" with your Facebook App name. --result.accessToken.token>
-        <string>Elite Quiz</string>
+        <key>2006628019501596</key>
+        <string>2006628019501596</string>
+        <key>FacebookDisplayName</key>
+        <!-- Replace "YOUR_APP_NAME" with your Facebook App name. -->
+        <string>Nurse Values</string>
 
         <key>LSApplicationQueriesSchemes</key>
         <array>
